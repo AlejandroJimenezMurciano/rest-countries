@@ -1,0 +1,18 @@
+.form{
+    display: flex;
+    height: 80px;
+    gap: 50rem;
+    &__field{
+        align-items: center;
+        margin-top: 40px;
+        background-color:var(--dark-mode-elements);
+    }
+}
+
+label, legend{
+    color:var(--white);
+}
+
+input{
+    background-color:var(--dark-mode-elements);
+}
